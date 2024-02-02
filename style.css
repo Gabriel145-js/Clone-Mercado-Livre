@@ -15,14 +15,16 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    
+    flex-direction: row;
+    position: relative;
+    top: -45px;
     
     
 }
 
 .search-nav{
     position: relative;
-    top: 8px;
+    
     width: 80%;
     max-width: 580px;
     height: 42px;
@@ -33,7 +35,7 @@ body{
 
 .lupa{
     position: relative;
-    top: 8px;
+
     right: 45px;
     background-color: transparent;
     cursor: pointer;
@@ -49,13 +51,15 @@ input[type="search"]::-webkit-search-cancel-button {
     
 }
 
-.nav-logo img{  
-    position: absolute;
-    top: -45px;
-    left: 5%  ;
-    width: 20%;
+.nav-logo {  
+    position: relative;
 
+    max-width: 30%;
     
 }
 
-
+.nav-anuncio {
+    position: relative;
+    width: 422px;
+    max-width: 30%;
+}
